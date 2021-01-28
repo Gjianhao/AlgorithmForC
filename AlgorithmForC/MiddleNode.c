@@ -13,16 +13,9 @@ struct ListNode* middleNode(struct ListNode* head) {
     struct ListNode* slow; // 一次一步
     fast = slow = head;
     
-    while (1) {
-        if (fast->next == NULL) {
-            break;
-        } else if (fast->next->next == NULL) {
-            slow = slow->next;
-            break;
-        } else {
-            fast = fast->next->next;
-            slow = slow->next;
-        }
+    while (fast && fast->next) {
+        fast = fast->next->next;
+        slow = slow->next;
     }
     return slow;
 }
