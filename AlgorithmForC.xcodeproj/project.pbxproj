@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A9B1A9C25C2FAE600ADD21A /* MergeTwoLists.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B1A9B25C2FAE600ADD21A /* MergeTwoLists.c */; };
+		0A9B1AA025C2FD4200ADD21A /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B1A9F25C2FD4200ADD21A /* QuickSort.c */; };
+		0A9B1AA425C2FDA300ADD21A /* InsertSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B1AA325C2FDA300ADD21A /* InsertSort.c */; };
+		0A9B1AA825C3052700ADD21A /* SearchMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B1AA725C3052700ADD21A /* SearchMatrix.c */; };
 		0AB10E1125C04502004FC01B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AB10E1025C04502004FC01B /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A9B1A9A25C2FAE600ADD21A /* MergeTwoLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeTwoLists.h; sourceTree = "<group>"; };
+		0A9B1A9B25C2FAE600ADD21A /* MergeTwoLists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeTwoLists.c; sourceTree = "<group>"; };
+		0A9B1A9E25C2FD4200ADD21A /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		0A9B1A9F25C2FD4200ADD21A /* QuickSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
+		0A9B1AA225C2FDA300ADD21A /* InsertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertSort.h; sourceTree = "<group>"; };
+		0A9B1AA325C2FDA300ADD21A /* InsertSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InsertSort.c; sourceTree = "<group>"; };
+		0A9B1AA625C3052700ADD21A /* SearchMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchMatrix.h; sourceTree = "<group>"; };
+		0A9B1AA725C3052700ADD21A /* SearchMatrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SearchMatrix.c; sourceTree = "<group>"; };
 		0AB10E0D25C04502004FC01B /* AlgorithmForC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmForC; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB10E1025C04502004FC01B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				0AB10E1025C04502004FC01B /* main.c */,
+				0A9B1A9A25C2FAE600ADD21A /* MergeTwoLists.h */,
+				0A9B1A9B25C2FAE600ADD21A /* MergeTwoLists.c */,
+				0A9B1A9E25C2FD4200ADD21A /* QuickSort.h */,
+				0A9B1A9F25C2FD4200ADD21A /* QuickSort.c */,
+				0A9B1AA225C2FDA300ADD21A /* InsertSort.h */,
+				0A9B1AA325C2FDA300ADD21A /* InsertSort.c */,
+				0A9B1AA625C3052700ADD21A /* SearchMatrix.h */,
+				0A9B1AA725C3052700ADD21A /* SearchMatrix.c */,
 			);
 			path = AlgorithmForC;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9B1AA825C3052700ADD21A /* SearchMatrix.c in Sources */,
 				0AB10E1125C04502004FC01B /* main.c in Sources */,
+				0A9B1AA025C2FD4200ADD21A /* QuickSort.c in Sources */,
+				0A9B1AA425C2FDA300ADD21A /* InsertSort.c in Sources */,
+				0A9B1A9C25C2FAE600ADD21A /* MergeTwoLists.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
