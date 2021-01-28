@@ -11,6 +11,7 @@
 		0A9B1AA025C2FD4200ADD21A /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B1A9F25C2FD4200ADD21A /* QuickSort.c */; };
 		0A9B1AA425C2FDA300ADD21A /* InsertSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B1AA325C2FDA300ADD21A /* InsertSort.c */; };
 		0A9B1AA825C3052700ADD21A /* SearchMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B1AA725C3052700ADD21A /* SearchMatrix.c */; };
+		0A9B1AAC25C309EB00ADD21A /* MiddleNode.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B1AAB25C309EB00ADD21A /* MiddleNode.c */; };
 		0AB10E1125C04502004FC01B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AB10E1025C04502004FC01B /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		0A9B1AA325C2FDA300ADD21A /* InsertSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InsertSort.c; sourceTree = "<group>"; };
 		0A9B1AA625C3052700ADD21A /* SearchMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchMatrix.h; sourceTree = "<group>"; };
 		0A9B1AA725C3052700ADD21A /* SearchMatrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SearchMatrix.c; sourceTree = "<group>"; };
+		0A9B1AAA25C309EB00ADD21A /* MiddleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiddleNode.h; sourceTree = "<group>"; };
+		0A9B1AAB25C309EB00ADD21A /* MiddleNode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MiddleNode.c; sourceTree = "<group>"; };
 		0AB10E0D25C04502004FC01B /* AlgorithmForC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmForC; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB10E1025C04502004FC01B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +81,8 @@
 				0A9B1AA325C2FDA300ADD21A /* InsertSort.c */,
 				0A9B1AA625C3052700ADD21A /* SearchMatrix.h */,
 				0A9B1AA725C3052700ADD21A /* SearchMatrix.c */,
+				0A9B1AAA25C309EB00ADD21A /* MiddleNode.h */,
+				0A9B1AAB25C309EB00ADD21A /* MiddleNode.c */,
 			);
 			path = AlgorithmForC;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			files = (
 				0A9B1AA825C3052700ADD21A /* SearchMatrix.c in Sources */,
 				0AB10E1125C04502004FC01B /* main.c in Sources */,
+				0A9B1AAC25C309EB00ADD21A /* MiddleNode.c in Sources */,
 				0A9B1AA025C2FD4200ADD21A /* QuickSort.c in Sources */,
 				0A9B1AA425C2FDA300ADD21A /* InsertSort.c in Sources */,
 				0A9B1A9C25C2FAE600ADD21A /* MergeTwoLists.c in Sources */,

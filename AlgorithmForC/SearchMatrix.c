@@ -7,6 +7,7 @@
 
 #include "SearchMatrix.h"
 
+/// 240 搜索二维矩阵 II
 bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target){
     // 使用对角线搜索
     int r = 0, c = *matrixColSize - 1;
