@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 
-/// 插入排序: 稳定排序,在接近有序的情况下,表现优异
+/// 912.插入排序: 稳定排序,在接近有序的情况下,表现优异
 int* insertSort(int *nums, int numsSize);
 
 #endif /* InsertSort_h */

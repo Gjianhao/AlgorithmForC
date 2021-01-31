@@ -15,13 +15,49 @@ int* insertSort(int *nums, int numsSize) {
     for (int i = 0; i < numsSize; i++) {
         for (int j = i; j > 0; j--) {
             if (nums[j] < nums[j - 1]) {
-                int tmp = nums[j];
-                nums[j] = nums[j - 1];
-                nums[j - 1] = tmp;
-            } else {
-                break;
+                int tmp = nums[j - 1];
+                nums[j - 1] = nums[j];
+                nums[j] = tmp;
             }
         }
     }
     return nums;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//for (int i = 0; i < numsSize; i++) {
+//    for (int j = i; j > 0; j--) {
+//        if (nums[j] < nums[j - 1]) {
+//            int tmp = nums[j];
+//            nums[j] = nums[j - 1];
+//            nums[j - 1] = tmp;
+//        } else {
+//            break;
+//        }
+//    }
+//}
