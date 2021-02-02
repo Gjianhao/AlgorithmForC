@@ -8,12 +8,6 @@
 #include "MergeSort.h"
 
 // 912.排序数组     必须掌握  归并排序
-void swap(int arr[], int a, int b) {
-    int tmp = arr[a];
-    arr[a] = arr[b];
-    arr[b] = tmp;
-}
-
 void merge(int* arr, int leftPtr, int rightPtr, int rightBound) {
     // 中间值
     int mid = rightPtr - 1;

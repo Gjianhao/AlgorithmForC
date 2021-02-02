@@ -10,5 +10,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+
 void merge(int* arr, int leftPtr, int rightPtr, int rightBound);
+
 #endif /* MergeSort_h */
