@@ -14,16 +14,6 @@ void swap(int arr[], int a, int b) {
     arr[b] = tmp;
 }
 
-void sort(int* arr, int left, int right) {
-    if (left == right) return;
-    // 分成两半
-    int mid = left + ((right - left) >> 1);
-    // 左边排序
-    sort(arr, left, mid);
-    // 右边排序
-    sort(arr, mid + 1, right);
-    merge(arr, left, mid + 1, right);
-}
 void merge(int* arr, int leftPtr, int rightPtr, int rightBound) {
     // 中间值
     int mid = rightPtr - 1;
@@ -43,4 +33,14 @@ void merge(int* arr, int leftPtr, int rightPtr, int rightBound) {
     for (int m = 0; m < (rightBound - leftPtr + 1); m++) {
         arr[leftPtr + m] = temp[m];
     }
+}
+void sort(int* arr, int left, int right) {
+    if (left == right) return;
+    // 分成两半
+    int mid = left + ((right - left) >> 1);
+    // 左边排序
+    sort(arr, left, mid);
+    // 右边排序
+    sort(arr, mid + 1, right);
+    merge(arr, left, mid + 1, right);
 }
